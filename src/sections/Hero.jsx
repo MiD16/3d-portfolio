@@ -21,7 +21,7 @@ const Hero = () => {
             <Suspense fallback={<Loader/>}>
               <Float>
                 <Astronaut scale={isMobile && 0.23} position={isMobile && [0, -1.5, 0]}/>
-                <OrbitControls enableZoom={false}/>
+                <OrbitControls enableZoom={false} enablePan={false}/>
               </Float>
             </Suspense>
             <Rig/>
