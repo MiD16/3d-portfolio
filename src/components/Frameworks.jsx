@@ -3,6 +3,7 @@ import { OrbitingCircles } from "./OrbitCircles";
 export default function Frameworks() {
   const skills = [
     "csharp",
+    "cplusplus",
     "dotnet",
     "dotnetcore",
     "git",
