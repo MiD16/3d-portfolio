@@ -17,11 +17,16 @@ export default function Astronaut(props) {
 
   const yPosition = useMotionValue(5);
   const ySpring = useSpring(yPosition, { damping: 30 });
+  // useEffect(() => {
+  //   return () => {
+  //     ySpring.set(-1);
+  //   }
+  // }, [ySpring])
+
   useEffect(() => {
-    return () => {
-      ySpring.set(-1);
-    }
-  }, [ySpring])
+    yPosition.set(-1);  // this will trigger the spring from 5 -> -1
+  }, []);
+
   
   useFrame(() => {
     group.current.position.y = ySpring.get();
