@@ -43,7 +43,7 @@ const About = () => {
         <div className="grid-black-color grid-3">
             <div className="z-10 w-[50%]">
                 <p className="headtext">
-                    Time Zone
+                    Location
                 </p>
                 <p className="subtext">
                     I'm based in Syria, and open to remote work worldwide
