@@ -1,5 +1,46 @@
 export const myProjects = [
   {
+    id: 5,
+    title: "Trending Movie Browser",
+    description:
+      "A Web App that displays most trending movies on The Movie Database, as well as most searched movies on the platform itself.",
+    subDescription: [
+      "The App calls the TMDB's public API to browse trending movies.",
+      "It also provides an optimized searching functionality for better performance.",
+      "Works with AppWrite online backend to store and display the movies most searched for on the platform",
+    ],
+    href: "https://imdb-movie-platform.onrender.com/",
+    logo: "",
+    image: "/assets/projects/imdb.png",
+    tags: [
+      {
+        id: 4,
+        name: "React JS",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 1,
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 5,
+        name: "AppWrite",
+        path: "/assets/logos/appwrite.svg",
+      },
+    ],
+  },
+  {
     id: 1,
     title: "Laftah CMS",
     description:
