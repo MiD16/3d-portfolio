@@ -27,7 +27,7 @@ const Hero = () => {
                 scale={isMobile ? 0.23 : undefined}
                 position={isMobile ? [0, -1.5, 0] : undefined}
               />
-            <axesHelper args={[5]} />
+            {/* <axesHelper args={[5]} /> */}
               <OrbitControls enableZoom={false} enablePan={false} />
             </Float>
           </Suspense>

@@ -34,7 +34,7 @@ const ReviewCard = ({
 export default function Testimonials() {
   return (
     <div className='items-start mt-25 md:mt-35 c-space'>
-        <h2 className='textheading'>
+        <h2 className='text-heading'>
             Hear from my Clinets
         </h2>
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden mt-12">
