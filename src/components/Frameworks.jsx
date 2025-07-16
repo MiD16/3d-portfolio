@@ -1,6 +1,9 @@
+import { useMediaQuery } from "react-responsive";
 import { OrbitingCircles } from "./OrbitCircles";
 
 export default function Frameworks() {
+    const isMobile = useMediaQuery({ maxWidth: 853 });
+
   const frameworksAndLanguages = [
     'python',
     'django',
@@ -36,12 +39,12 @@ export default function Frameworks() {
 
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
-      <OrbitingCircles iconSize={45} radius={180}>
+      <OrbitingCircles iconSize={45} radius={isMobile ? 160 : 180}>
         {frameworksAndLanguages.map((skill, index) => (
           <Icon key={index} src={`assets/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
-      <OrbitingCircles iconSize={35} radius={100} reverse speed={2}>
+      <OrbitingCircles iconSize={35} radius={isMobile ? 90 : 100} reverse speed={2}>
         {technologies.reverse().map((skill, index) => (
           <Icon key={index} src={`assets/logos/${skill}.svg`} />
         ))}
