@@ -1,14 +1,12 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Laftah CMS",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Luftah is a gifting platform designed to order and deliver gifts between its customers.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "The gifts vary between standard gifts and celebrities video gifts taken by the celebrity themselves and sent via WhatsApp to the end user.",
+      "Worked on the admin panel for monitoring and managing the platform.",
     ],
     href: "",
     logo: "",
@@ -16,36 +14,39 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "Django",
+        path: "/assets/logos/django.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "PostgreSQL",
+        path: "/assets/logos/postgresql.svg",
+      },
+      {
+        id: 5,
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Private Banks Platform",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "The Private Banks Platform was built to provide the Syrian Central Bank with management and control over the private banks cooperating with them.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "The platform allows monitoring, adding, deleting, and modifying private banks, alongside any other variables and formulae included in the mix.",
+      "It also provides a Customer Comparison Panel, allowing customers to compare similar services between private banks.",
     ],
     href: "",
     logo: "",
@@ -53,36 +54,41 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Laravel",
+        path: "/assets/logos/laravel.svg",
+      },
+      {
+        id: 5,
+        name: "MySQL",
+        path: "/assets/logos/mysql.svg",
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Sunnex Mobile Application",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Sunnex is a project to publish business advertisements completely online.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "You can post ads as well as browse through other ads to reach the shops or services around you according to your needs.",
+      "You can also request a Special Ad to reach more customers, hence, more sales.",
+      "Implemented an E-Payment functionality using MTN Cash and Syriatel Cash, with future possibilities of collaboration and integration with local banks.",
+      "The app follows the MVC architecture and supports both Arabic and English languages, as well as light and dark themes, with the ability to instantly toggle between them.",
     ],
     href: "",
     logo: "",
@@ -90,36 +96,20 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Flutter",
+        path: "/assets/logos/flutter.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Masaffat Platform",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "Masaffat is a project to organize parking in the streets of the capital, Damascus.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "As an extension, I’ve re-designed, maintained, developed, and tested a client mobile version of Masaffat, including Front End, Back End, and Databases.",
+      "Customers themselves can reserve a parking space and pay their dues using e-payment (currently supporting MTN Cash and Syriatel Cash).",
+      "The app supports internal updating using SFTP to download the latest apk file.",
     ],
     href: "",
     logo: "",
@@ -127,97 +117,18 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Flutter",
+        path: "/assets/logos/flutter.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "ASP.NET MVC",
+        path: "/assets/logos/dotnet.svg",
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Oracle DB",
+        path: "/assets/logos/oracle.svg",
       },
     ],
   },
@@ -226,53 +137,59 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/963940199208",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/melad-khnefes-9320b71b1/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    href: "https://www.github.com/MiD16",
+    icon: "/assets/socials/github.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Django Developer",
+    job: "Orderset, Inc.",
+    date: "Oct, 2022 - Mar, 2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Built an automated social media posting system using Python, calling on both Instagram and Facebook’s APIs.",
+      "Worked on a Restaurant services backend that provides a web domain for every restaurant manager, and implements their menu and orders using Django RESTful APIs.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Mobile Application Developer",
+    job: "INOV8 (Pre-incorporation Phase)",
+    date: "Jun, 2024 - Nov, 2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Built an advertisements platform based on a Figma design using Flutter, where customers can subscribe and post ads about their shops or services.",
+      "Developed a custom map where users can browse through ads near their location using GPS.",
+      "Collaborated with the back end team to integrate with their APIs using Postman collections.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Software Engineer",
+    job: "Smart Soft Services",
+    date: "Jul, 2023 - Jun, 2025",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Did some analysis and design studies and gathered information directly from customers for some projects.",
+      "Developed, tested, and maintained a bunch of projects, whether on front end, back end, databases, or all of them.",
+      'Worked on agile methodologies like Jira, Open Project, and GitLab, collaborating with the development team and the testing team.',
+      'Worked on automating any cumbersome and repetitive tasks encountered regularly using Python scripting.',
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
+    job: "INOV8",
+    date: "Jun, 2025 - Present",
+    contents: [
+      "Transitioned from freelance contributor to a core team member.",
+      "Leading front end development, testing, and maintenance efforts and supporting the product’s roadmap.",
     ],
   },
 ];

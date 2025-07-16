@@ -68,7 +68,7 @@ const [alertMessage, setAlertMessage] = useState('');
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're.... I'm here to help.
+            Whether you wanted a consultation or sought a future collaboration, I'm all ears!
           </p>
         </div>
         <form action="" className="w-full" onSubmit={handleSubmit}>
@@ -115,7 +115,7 @@ const [alertMessage, setAlertMessage] = useState('');
               id="message"
               name="message"
               className="field-input field-input-focus"
-              placeholder="Share Your thougts, too!"
+              placeholder="Share Your thougts with me"
               required
               rows="5"
               value={formData.message}

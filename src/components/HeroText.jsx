@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 
 const HeroText = () => {
-    const words = ["Secure", "Modern", "Scalable"];
+    const words = ["Secure", "Modern", "Efficient", "Scalable"];
     const variants = {
         hidden: {
             opacity: 0, x: -50

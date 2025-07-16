@@ -26,7 +26,7 @@ const ProjectDetails = ({
         <img src={image} alt={title} className="w-full rounded-t-2xl" />
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold text-white">{title}</h5>
-          <p className="mb-3 font-normal text-neutral-400">{description}</p>
+          <p className="mb-3 font-extrabold text-neutral-400">{description}</p>
           {subDescription.map((subDesc, index) => (
             <p key={subDesc} className="mb-3 font-normal text-neutral-400">
               {subDesc}
@@ -44,13 +44,13 @@ const ProjectDetails = ({
               ))}
             </div>
           </div>
-          <a
+          {href.length > 0 && (<a
             href={href}
             className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer"
           >
             View Project
             <img src="assets/arrow-up.svg" alt="view" className="size-4" />
-          </a>
+          </a>)}
         </div>
       </motion.div>
     </div>
