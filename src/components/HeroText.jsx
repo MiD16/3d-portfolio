@@ -13,6 +13,8 @@ const HeroText = () => {
             opacity: 1, x: 0
         },
     };
+
+    const greeting = 'Hey! I\'m Melad', whatIOffer = 'Software Solutions';
   return (
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
       <div className="flex-col hidden md:flex c-space">
@@ -23,7 +25,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi, I'm Melad
+          {greeting}
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p className="text-medium"
@@ -32,7 +34,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1.2 }}
         >
-            A Developer Dedicated to Crafting
+            An Engineer Experienced in Crafting
           </motion.p>
           <motion.div
           variants={variants}
@@ -49,7 +51,7 @@ const HeroText = () => {
           initial="hidden"
           animate="visible"
           transition={{ delay: 1.8 }}>
-            Web Solutions
+            {whatIOffer}
           </motion.p>
         </div>
       </div>
@@ -59,7 +61,7 @@ const HeroText = () => {
           variants={variants}
           initial="hidden"
           animate="visible"
-          transition={{ delay: 1 }}>Hi, I'm Melad</motion.p>
+          transition={{ delay: 1 }}>{greeting}</motion.p>
         <div className="">
           <motion.p className="text-5xl font-black text-neutral-300"
           variants={variants}
@@ -83,7 +85,7 @@ const HeroText = () => {
           initial="hidden"
           animate="visible"
           transition={{ delay: 1.8 }}>
-            Web Applications
+            {whatIOffer}
           </motion.p>
         </div>
       </div>

@@ -3,10 +3,11 @@ import React from 'react'
 
 const ParallaxBackground = () => {
     const {scrollYProgress} = useScroll();
-    const mountain3Y = useTransform(scrollYProgress, [0, 0.5], ["0%", "70%"]);
-    const planetsX = useTransform(scrollYProgress, [0, 0.5], ["0%", "-60%"]);
-    const mountain2Y = useTransform(scrollYProgress, [0, 0.5], ["0%", "30%"]);
-    const mountain1Y = useTransform(scrollYProgress, [0, 0.5], ["0%", "0%"]);
+    const springEffect = useSpring(scrollYProgress, { damping: 50 });
+    const mountain3Y = useTransform(springEffect, [0, 0.5], ["0%", "70%"]);
+    const planetsX = useTransform(springEffect, [0, 0.5], ["0%", "-60%"]);
+    const mountain2Y = useTransform(springEffect, [0, 0.5], ["0%", "30%"]);
+    const mountain1Y = useTransform(springEffect, [0, 0.5], ["0%", "0%"]);
     
 
   return (

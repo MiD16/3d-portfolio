@@ -1,27 +1,48 @@
 import { OrbitingCircles } from "./OrbitCircles";
 
 export default function Frameworks() {
-  const skills = [
+  const frameworksAndLanguages = [
+    'python',
+    'django',
+    'flask',
+    'dart',
+    'flutter',
+    'java',
+    'spring-wordmark',
+    'php',
+    'laravel',
     "csharp",
-    "cplusplus",
-    "dotnet",
+    "dot-net-wordmark",
     "dotnetcore",
-    "git",
     "javascript",
     "react",
-    "sqlite",
+    "cplusplus",
     "tailwindcss",
-    "vitejs",
   ];
+
+  const technologies = [
+    'linux',
+    'docker',
+    "git",
+    'github',
+    'gitlab',
+    'oracle',
+    "sqlite",
+    'firebase',
+    'insomnia',
+    'jupyter-wordmark',
+    'postman',
+  ];
+
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
-      <OrbitingCircles iconSize={40}>
-        {skills.map((skill, index) => (
+      <OrbitingCircles iconSize={45} radius={180}>
+        {frameworksAndLanguages.map((skill, index) => (
           <Icon key={index} src={`assets/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
-      <OrbitingCircles iconSize={25} radius={100} reverse speed={2}>
-        {skills.reverse().map((skill, index) => (
+      <OrbitingCircles iconSize={35} radius={100} reverse speed={2}>
+        {technologies.reverse().map((skill, index) => (
           <Icon key={index} src={`assets/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
