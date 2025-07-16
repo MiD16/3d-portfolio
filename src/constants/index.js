@@ -10,7 +10,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/laftah.png",
     tags: [
       {
         id: 1,
@@ -50,7 +50,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/pbp.png",
     tags: [
       {
         id: 1,
@@ -81,7 +81,7 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Sunnex Mobile Application",
+    title: "Sunnex",
     description:
       "Sunnex is a project to publish business advertisements completely online.",
     subDescription: [
@@ -92,7 +92,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/sunnex.png",
     tags: [
       {
         id: 1,
@@ -103,7 +103,7 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "Masaffat Platform",
+    title: "Masaffat Mobile",
     description:
       "Masaffat is a project to organize parking in the streets of the capital, Damascus.",
     subDescription: [
@@ -113,7 +113,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/masaffat.jpg",
     tags: [
       {
         id: 1,
