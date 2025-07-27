@@ -1,5 +1,46 @@
 export const myProjects = [
   {
+    id: 6,
+    title: "Mojito Bar Landing Page",
+    description:
+      "A Landing Page that displays a bar's trending cocktails on the menu, as well as their ingredients and prices.",
+    subDescription: [
+      "The Website uses GSAP Animation Library in many places, creating a stunning User Experience.",
+      "The glass at the Hero section is a dynamic video triggered by scrolling.",
+      "The masked image in The Art section fades the text around it as it expands upon scrolling",
+    ],
+    href: "https://mojito-landing-page.onrender.com/",
+    logo: "",
+    image: "/assets/projects/mojito.png",
+    tags: [
+      {
+        id: 5,
+        name: "GSAP",
+        path: "/assets/logos/gsap.svg",
+      },
+      {
+        id: 4,
+        name: "React JS",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 1,
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
+    ],
+  },
+  {
     id: 5,
     title: "Trending Movie Browser",
     description:
