@@ -1,5 +1,47 @@
 export const myProjects = [
   {
+    id: 7,
+    title: "Zentry Gaming Replica",
+    description:
+      "A replica of Zentry platform's website, which is full of stunning visuals and animations.",
+    subDescription: [
+      "The Website uses GSAP Animation Library in many places, creating a fascinating User Experience.",
+      "The videos in the Hero section are dynamic and can be changed by hovering to the middle and pressing the next video's thumbnail.",
+      "The website starts with an epic non-copyrighted song that can be toggled from the top right corner",
+      "The dynamic navbar box shows up automatically as the user starts scrolling upwards",
+    ],
+    href: "https://zentry-replica-3fwm.onrender.com/",
+    logo: "",
+    image: "/assets/projects/zentry.png",
+    tags: [
+      {
+        id: 5,
+        name: "GSAP",
+        path: "/assets/logos/gsap.svg",
+      },
+      {
+        id: 4,
+        name: "React JS",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 1,
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
+    ],
+  },
+  {
     id: 6,
     title: "Mojito Bar Landing Page",
     description:
