@@ -69,7 +69,7 @@ const About = () => {
                     Tech Stack
                 </p>
                 <p className="subtext">
-                    I specialize in a variety of Programming Languages, Frameworks, and Dev Tools that allow me to build Robust and Scalable Services. 
+                    I specialize in a variety of Programming Languages, Frameworks, and Dev Tools that allow me to build Scalable Services.
                 </p>
             </div>
             <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

@@ -1,6 +1,44 @@
 export const myProjects = [
   {
     id: 7,
+    title: "AI Trips Generator Dashboard",
+    description:
+      "A Dashboard for generating trips around the world using AI under some user input conditions.",
+    subDescription: [
+      "The user signs in using their Gmail account, invoking Google's APIs for authentication",
+      "The user inputs their country of choice and the number of days, and chooses the budget, the interests, the purpose of the trip... etc.",
+      "The dashboard uses a Gemini API key to generate the trip based on the user input.",
+      "The dashboard also calls the Unsplash APIs to generate images based on the selected country",
+      "The trip is saved in the database and anyone else can check it",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/tourvisto.png",
+    tags: [
+      {
+        id: 5,
+        name: "Syncfusion",
+        path: "/assets/logos/syncfusion.svg",
+      },
+      {
+        id: 4,
+        name: "React Router v7",
+        path: "/assets/logos/react-router.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 1,
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
+      },
+    ],
+  },
+  {
+    id: 7,
     title: "Zentry Gaming Replica",
     description:
       "A replica of Zentry platform's website, which is full of stunning visuals and animations.",
@@ -266,7 +304,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/melad-khnefes-9320b71b1/",
+    href: "https://www.linkedin.com/in/Milad-khnefes-9320b71b1/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {

@@ -17,7 +17,7 @@ const Footer = () => {
         ))}
       </div>
       <p>
-        © 2025 Melad. All Rights Reserved.
+        © 2025 Milad. All Rights Reserved.
       </p>
     </section>
   );
