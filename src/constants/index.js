@@ -1,5 +1,37 @@
 export const myProjects = [
   {
+    id: 8,
+    title: "AI-powered ATS Score Generator",
+    description:
+      "A Dashboard for generating ATS score and further improvements based on the resume and the job description.",
+    subDescription: [
+      "The user signs in using Puter services for remote hosting",
+      "The user inputs the company name, the job title, and the job description, and attaches their resume as a PDF.",
+      "The dashboard loads resume's text content and sends it alongside previous data to Puter's AI services to generate the feedback.",
+      "The resume reviews are saved for each user individually via Puter's key-value storage",
+    ],
+    href: "https://ai-ats-t1k2.onrender.com/",
+    logo: "",
+    image: "/assets/projects/resumind.png",
+    tags: [
+      {
+        id: 4,
+        name: "React Router v7",
+        path: "/assets/logos/react-router.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 1,
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
+      },
+    ],
+  },
+  {
     id: 7,
     title: "AI Trips Generator Dashboard",
     description:
